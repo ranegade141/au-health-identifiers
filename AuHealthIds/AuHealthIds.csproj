@@ -17,7 +17,7 @@ Validators and Generators for Australian Health Identifiers</Description>
     <PackageTags>medicare;ihi;australia;ahpra;dva;hpi-o;hpi-i;provider;prescriber</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
-    <PackageIcon>license.png</PackageIcon>
+    <PackageIcon>package.png</PackageIcon>
   </PropertyGroup>
 
   <!-- .NET Standard 2.0 references, compilation flags and build options -->
@@ -30,7 +30,7 @@ Validators and Generators for Australian Health Identifiers</Description>
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\license.png">
+    <None Include="..\package.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
