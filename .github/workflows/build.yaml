@@ -1,0 +1,81 @@
+name: build
+on: [push, pull_request]
+jobs:
+  core-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Setup .NET SDK 8.0
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '8.0.x'
+      - uses: paulhatch/semantic-version@v5.4.0
+        id: semantic_version
+        with:
+          tag_prefix: "v"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install dependencies
+        run: dotnet restore
+      - name: Build Library
+        run: dotnet build --configuration Release --no-restore AuHealthIds -o ./bin
+      - name: Pack Library
+        run: dotnet pack --configuration Release --no-restore AuHealthIds -o ./nupkgs /p:Version=${{ steps.semantic_version.outputs.VERSION }}
+      - name: Upload Compiled Binaries
+        uses: actions/upload-artifact@v4
+        with:
+          name: dotnetcore-bin
+          path: bin/
+      - name: Upload Package
+        uses: actions/upload-artifact@v4
+        with:
+          name: AuHealthIds.nupkg
+          path: nupkgs/AuHealthIds.*
+  test:
+    needs: [core-build]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Setup .NET SDK 8.0
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: 8.0.x
+      - name: Install dependencies
+        run: dotnet restore
+      - name: Test
+        run: dotnet test AuHealthIds.Tests --no-restore --logger GitHubActions
+  publish:
+    needs: [test]
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v5
+      with:
+        fetch-depth: 0
+    - name: Verify commit exists in origin/master
+      run: git branch --remote --contains | grep origin/master
+    - name: Set VERSION variable from tag
+      run: echo "VERSION=${GITHUB_REF/refs\/tags\/v/}" >> $GITHUB_ENV
+    - name: Download AuHealthIds.nupkg
+      uses: actions/download-artifact@v5
+      with:
+        name: 'AuHealthIds.nupkg'
+        path: ./nupkgs
+    - name: Setup .NET SDK 8.0
+      uses: actions/setup-dotnet@v5
+      with:
+        dotnet-version: 8.0.x
+    - name: Push to Github Repository
+      run: dotnet nuget push ./nupkgs/*.nupkg --source https://nuget.pkg.github.com/pgodwin/index.json --api-key ${GITHUB_TOKEN} --skip-duplicate
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Publish the package to nuget.org
+      run: dotnet nuget push ./nupkgs/*.nupkg -k $NUGET_AUTH_TOKEN -s https://api.nuget.org/v3/index.json --skip-duplicate
+      env:
+        NUGET_AUTH_TOKEN: ${{ secrets.NUGET_TOKEN }}
+      
+    
