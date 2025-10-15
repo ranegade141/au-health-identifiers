@@ -20,19 +20,19 @@ jobs:
       - name: Install dependencies
         run: dotnet restore
       - name: Build Library
-        run: dotnet build --configuration Release --no-restore AuHealthIds -o ./bin
+        run: dotnet build --configuration Release --no-restore AuHealthIds /p:Version=${{ steps.semantic_version.outputs.VERSION }}
       - name: Pack Library
         run: dotnet pack --configuration Release --no-restore AuHealthIds -o ./nupkgs /p:Version=${{ steps.semantic_version.outputs.VERSION }}
       - name: Upload Compiled Binaries
         uses: actions/upload-artifact@v4
         with:
           name: dotnetcore-bin
-          path: bin/
+          path: bin/Release/netstandard2.0/AuHealthIds.*
       - name: Upload Package
         uses: actions/upload-artifact@v4
         with:
           name: AuHealthIds.nupkg
-          path: nupkgs/AuHealthIds.*
+          path: nupkgs/AuHealthIdentifiers.*
   test:
     needs: [core-build]
     runs-on: ubuntu-latest
@@ -77,5 +77,6 @@ jobs:
       run: dotnet nuget push ./nupkgs/*.nupkg -k $NUGET_AUTH_TOKEN -s https://api.nuget.org/v3/index.json --skip-duplicate
       env:
         NUGET_AUTH_TOKEN: ${{ secrets.NUGET_TOKEN }}
+
       
     
